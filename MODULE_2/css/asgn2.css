@@ -1,0 +1,103 @@
+.title{
+	color:green;
+	font-size: 40px;
+	text-align: center;
+	font-style: italic;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.table{
+	display:table;
+	clear: both;
+}
+.atmos{
+	background-color: orange;
+}	
+.litho{
+	background-color: violet;
+}
+.hydro{
+	background-color: green;
+}
+.col{
+	float:left;
+	box-sizing:border-box;
+	border:black;
+	width:30%;
+	margin:10px;
+	border-bottom: solid black;
+	border-left: solid black;
+	border-top: solid black;
+	border-right: solid black;
+}
+
+.coltit{
+	margin-top: 0;
+	float: right;
+	border:black;
+	width:50%;
+
+
+}
+.atmos_tit{
+	color:red;
+	background-color: yellow;
+	border-left:solid black;
+	border-bottom: solid black;
+	
+
+
+}
+.litho_tit{
+	color:pink;
+	background-color: brown;
+	border-left:solid black;
+	border-bottom: solid black;
+}
+.hydro_tit{
+	color:red;
+	background-color: yellow;
+	border-left:solid black;
+	border-bottom: solid black;
+}	
+.atmos_in{
+	color: white;
+	text-align: justify;
+	margin: 30px;
+	margin-top: 50px;
+
+}	
+	
+.litho_in{
+	color: black;
+	text-align: justify;
+	margin: 30px;
+	margin-top: 50px;
+}
+.hydro_in{
+	color: white;
+	text-align: justify;
+	margin: 45px;
+	margin-top: 50px;	
+}
+@media (min-width: 991px){
+	.atmos,.litho,.hydro{
+		width:30%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.atmos,.litho{
+		width: 45%;
+
+	}
+	.hydro{
+		width:93%;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.atmos,.litho,.hydro{
+		width:99%;
+	}
